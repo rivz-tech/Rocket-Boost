@@ -711,6 +711,39 @@ MonoBehaviour:
       m_Action: Thrust
       m_Flags: 0
     m_Flags: 0
+  rotation:
+    m_Name: Rotation
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 9da5b6f5-b0d8-4a41-a915-f09ed96fd147
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 1D Axis
+      m_Id: 34ff5ead-8629-4d9c-810a-ced82dee8479
+      m_Path: 1DAxis
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Rotation
+      m_Flags: 4
+    - m_Name: negative
+      m_Id: 9b67512c-cd6c-4b7f-a94b-7d1aa2cd2357
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Rotation
+      m_Flags: 8
+    - m_Name: positive
+      m_Id: f921e00f-9648-4d89-8114-598519b793d7
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Rotation
+      m_Flags: 8
+    m_Flags: 0
   force: 1000
 --- !u!4 &1595790922
 Transform:
