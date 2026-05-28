@@ -68,5 +68,6 @@
         "*.slnx": "*.csproj"
     },
     "dotnet.defaultSolution": "Rocket Boost.slnx",
-    "dotnet.enableWorkspaceBasedDevelopment": false
+    "dotnet.enableWorkspaceBasedDevelopment": false,
+    "editor.formatOnSave": true
 }
